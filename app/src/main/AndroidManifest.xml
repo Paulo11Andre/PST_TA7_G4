@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST4">
-        <activity android:name=".Login_Screen"></activity>
+        <activity android:name=".Books_Screen"></activity>
+        <activity android:name=".Categories_Screen" />
+        <activity android:name=".Profile_screen" />
+        <activity android:name=".Login_Screen" />
         <activity android:name=".Loading_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

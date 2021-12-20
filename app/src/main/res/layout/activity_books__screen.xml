@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Books_Screen"
+    android:background="@color/purple_200">
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:text="@string/libros"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view7"
+        app:layout_constraintStart_toStartOf="@+id/view7"
+        app:layout_constraintTop_toTopOf="@+id/view7"
+        tools:text="Libros" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <SearchView
+        android:layout_width="354dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:addStatesFromChildren="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="411dp"
+        android:layout_height="55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="130"
+        android:layout_height="wrap_content"
+        android:text="@string/categor_as"
+        android:textSize="12sp"
+        app:icon="@drawable/ic_baseline_category_24"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/view9"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/black"
+        tools:text="Categorías" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="130"
+        android:layout_height="wrap_content"
+        android:text="@string/Perfil"
+        android:textSize="12sp"
+        app:icon="@drawable/ic_baseline_account_circle_24"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintEnd_toEndOf="@+id/view9"
+        app:layout_constraintStart_toStartOf="@+id/view9"
+        app:layout_constraintTop_toTopOf="@+id/view9"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/black"
+        tools:text="Perfil" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="@string/libros"
+        android:textSize="12sp"
+        app:icon="@drawable/ic_baseline_library_books_24"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/view9"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/black"
+        tools:text="Libros" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
