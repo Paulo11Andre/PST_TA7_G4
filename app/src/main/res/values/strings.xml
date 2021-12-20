@@ -13,7 +13,6 @@
     <string name="app_logo">App Logo</string>
     <string name="login">Login</string>
     <string name="nombre_de_usuario">Nombre de Usuario</string>
-    <string name="nombre_de_usuario">Nombre de Usuario</string>
     <string name="contrase_a">Contraseña</string>
     <string name="book_store_login">Book Store Login</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
@@ -120,5 +119,6 @@
     <string name="categor_a_favorita">Categoría favorita</string>
     <string name="libros">Libros</string>
     <string name="categor_as">Categorías</string>
-    <string name="libros">Libros</string>
+    <string name="categoria_fav" />
+    <string name="categorias" />
 </resources>

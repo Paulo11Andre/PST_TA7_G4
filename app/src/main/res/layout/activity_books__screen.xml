@@ -54,7 +54,7 @@
     <View
         android:id="@+id/view9"
         android:layout_width="411dp"
-        android:layout_height="55"
+        android:layout_height="?attr/actionBarSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -63,7 +63,7 @@
     <Button
         android:id="@+id/button8"
         style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="130"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="@string/categor_as"
         android:textSize="12sp"
@@ -79,9 +79,9 @@
     <Button
         android:id="@+id/button9"
         style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="130"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:text="@string/Perfil"
+        android:text="@string/perfil"
         android:textSize="12sp"
         app:icon="@drawable/ic_baseline_account_circle_24"
         app:iconPadding="0dp"
