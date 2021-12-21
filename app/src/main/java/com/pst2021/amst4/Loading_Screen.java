@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class Loading_Screen extends AppCompatActivity {
 
@@ -26,5 +27,10 @@ public class Loading_Screen extends AppCompatActivity {
             }
         };
         hiloInicio.start();
+
+    }
+
+    public void salir(View view) {
+        finish();
     }
 }

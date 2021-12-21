@@ -12,4 +12,7 @@ public class Profile_screen extends AppCompatActivity {
         setContentView(R.layout.activity_profile_screen);
         getSupportActionBar().hide();
     }
+
+    public void volver(){finish();
+    }
 }

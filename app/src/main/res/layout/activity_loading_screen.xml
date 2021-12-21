@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Loading_Screen"
-    android:background="@color/purple_200">
+    android:background="@color/purple_200"
+    tools:context=".Loading_Screen">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="182dp"
-        android:layout_height="107dp"
+        android:layout_width="250dp"
+        android:layout_height="84dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/book_store"
         android:textAlignment="center"
@@ -32,5 +32,6 @@
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
